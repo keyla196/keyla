@@ -36,3 +36,5 @@ Route::post(
 )->name('io_generator_builder_generate_from_file');
 
 Route::resource('generals', 'generalController');
+
+Route::resource('grupos', 'gruposController');
