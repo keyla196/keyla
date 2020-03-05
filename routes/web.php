@@ -38,3 +38,5 @@ Route::post(
 Route::resource('generals', 'generalController');
 
 Route::resource('grupos', 'gruposController');
+
+Route::resource('musicos', 'musicoController');

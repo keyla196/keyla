@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('generals', 'generalAPIController');
 
 Route::resource('grupos', 'gruposAPIController');
+
+Route::resource('musicos', 'musicoAPIController');
