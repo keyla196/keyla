@@ -2,23 +2,26 @@
 
 namespace App\Repositories;
 
-use App\Models\generosgrupos;
+use App\Models\musicogrupos;
 use App\Repositories\BaseRepository;
 
 /**
- * Class generosgruposRepository
+ * Class musicogruposRepository
  * @package App\Repositories
- * @version March 5, 2020, 8:03 pm UTC
+ * @version March 5, 2020, 7:56 pm UTC
 */
 
-class generosgruposRepository extends BaseRepository
+class musicogruposRepository extends BaseRepository
 {
     /**
      * @var array
      */
     protected $fieldSearchable = [
-        'idgrupos',
-        'idgenero'
+        'idgrupo',
+        'idmusico',
+        'instrumento',
+        'fechanacimiento',
+        'fechamuerte'
     ];
 
     /**
@@ -36,6 +39,6 @@ class generosgruposRepository extends BaseRepository
      **/
     public function model()
     {
-        return generosgrupos::class;
+        return musicogrupos::class;
     }
 }

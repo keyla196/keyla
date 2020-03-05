@@ -25,3 +25,5 @@ Route::resource('grupos', 'gruposAPIController');
 Route::resource('musicos', 'musicoAPIController');
 
 Route::resource('generosgrupos', 'generosgruposAPIController');
+
+Route::resource('musicogrupos', 'musicogruposAPIController');

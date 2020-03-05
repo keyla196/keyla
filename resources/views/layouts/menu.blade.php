@@ -14,3 +14,7 @@
     <a href="{{ route('generosgrupos.index') }}"><i class="fa fa-edit"></i><span>Generosgrupos</span></a>
 </li>
 
+<li class="{{ Request::is('musicogrupos*') ? 'active' : '' }}">
+    <a href="{{ route('musicogrupos.index') }}"><i class="fa fa-edit"></i><span>Musicogrupos</span></a>
+</li>
+

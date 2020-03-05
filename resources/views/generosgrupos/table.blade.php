@@ -2,7 +2,7 @@
     <table class="table" id="generosgrupos-table">
         <thead>
             <tr>
-                <th>Idgrupo</th>
+                <th>Idgrupos</th>
         <th>Idgenero</th>
                 <th colspan="3">Action</th>
             </tr>
@@ -10,7 +10,7 @@
         <tbody>
         @foreach($generosgrupos as $generosgrupos)
             <tr>
-                <td>{{ $generosgrupos->idgrupo }}</td>
+                <td>{{ $generosgrupos->idgrupos }}</td>
             <td>{{ $generosgrupos->idgenero }}</td>
                 <td>
                     {!! Form::open(['route' => ['generosgrupos.destroy', $generosgrupos->id], 'method' => 'delete']) !!}

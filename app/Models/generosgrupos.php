@@ -7,9 +7,9 @@ use Eloquent as Model;
 /**
  * Class generosgrupos
  * @package App\Models
- * @version March 5, 2020, 7:43 pm UTC
+ * @version March 5, 2020, 8:03 pm UTC
  *
- * @property integer idgrupo
+ * @property integer idgrupos
  * @property integer idgenero
  */
 class generosgrupos extends Model
@@ -21,7 +21,7 @@ class generosgrupos extends Model
 
 
     public $fillable = [
-        'idgrupo',
+        'idgrupos',
         'idgenero'
     ];
 
@@ -31,7 +31,7 @@ class generosgrupos extends Model
      * @var array
      */
     protected $casts = [
-        'idgrupo' => 'integer',
+        'idgrupos' => 'integer',
         'idgenero' => 'integer'
     ];
 

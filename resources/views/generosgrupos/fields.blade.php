@@ -1,7 +1,7 @@
-<!-- Idgrupo Field -->
+<!-- Idgrupos Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('idgrupo', 'Idgrupo:') !!}
-    {!! Form::text('idgrupo', null, ['class' => 'form-control']) !!}
+    {!! Form::label('idgrupos', 'Idgrupos:') !!}
+    {!! Form::text('idgrupos', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Idgenero Field -->
