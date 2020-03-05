@@ -10,3 +10,7 @@
     <a href="{{ route('musicos.index') }}"><i class="fa fa-edit"></i><span>Musicos</span></a>
 </li>
 
+<li class="{{ Request::is('generosgrupos*') ? 'active' : '' }}">
+    <a href="{{ route('generosgrupos.index') }}"><i class="fa fa-edit"></i><span>Generosgrupos</span></a>
+</li>
+

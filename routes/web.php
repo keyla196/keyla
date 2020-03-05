@@ -40,3 +40,5 @@ Route::resource('generals', 'generalController');
 Route::resource('grupos', 'gruposController');
 
 Route::resource('musicos', 'musicoController');
+
+Route::resource('generosgrupos', 'generosgruposController');
